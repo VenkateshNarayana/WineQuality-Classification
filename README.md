@@ -37,27 +37,10 @@ Below is a table showing names of all the columns and their description.
 
 ### CONCLUSION
 
-| Model | Models Analysed |
-| --- | --- |
+|     | Models Analysed |
+| --- | ---             |
 | Model | ![image.jpg](images/Models.jpg) |
 
-| Model | ModelName| Scaled?|	Outliers?|	Include Type?|	Added Qlty Cat?|	Added Wts?|	Logit_score|KNN_score |	DTREE_score |          | ------|----------|------- |----------|---------------|-----------------|------------|------------|--------- |:------------|
-|0	    | Model 1	 | No	    |Yes	     |No	           |No	             |No	        |0.522308	   |0.482308	|0.585385     |
-|1	    | Model 1A | No	    |Yes	     |No	           |No	             |Yes	        |0.441538	   |0.601538	|0.600000     |
-|2	    | Model 2	 | No	    |Yes	     |Yes	           |No	             |No	        |0.517692	   |0.480800	|0.590000     |
-|3	    | Model 2A | No	    |Yes	     |Yes	           |No	             |Yes	        |0.433846	   |0.616200	|0.585385     |
-|4	    | Model 3  | No	    |Yes	     |Yes	           |Yes	             |No	        |0.819231	   |0.803800	|0.845385     |
-|5	    | Model 3A | No	    |Yes	     |Yes            |Yes	             |Yes	        |0.790769	   |0.870000	|0.833846     |
-|6	    | Model 4	 | No	    |Yes	     |No	           |Yes	             |No	        |0.820769	   |0.804600	|0.837692     |
-|7	    | Model 4A | No	    |Yes	     |No	           |Yes	             |Yes	        |0.790769	   |0.870800	|0.840769     |
-|8	    | Model 5	 | No	    |No	       |No	           |No	             |No	        |0.545455	   |0.483700	|0.617829     |
-|9	    | Model 5A | No	    |No	       |No	           |No	             |Yes	        |0.422771	   |0.620500	|0.590468     |
-|10	    | Model 6	 | No	    |No	       |Yes	           |No	             |No	        |0.547220	   |0.481900	|0.599294     |
-|11	    | Model 6A | No	    |No	       |Yes	           |No	             |Yes	        |0.429832	   |0.618700	|0.607237     |
-|12	    | Model 7	 | No	    |No	       |Yes	           |Yes	             |No	        |0.807590	   |0.815500	|0.833186     |
-|13	    | Model 7A | No	    |No	       |Yes            |Yes	             |Yes	        |0.778464	   |0.857900	|0.849956     |
-|14	    | Model 8	 | Yes	  |No	       |Yes	           |Yes	             |No	        |0.817299	   |0.847300	|0.832304     |
-|15	    | Model 8A | Yes	  |No	       |Yes	           |Yes	             |Yes	        |0.776699	   |0.885300	|0.849956     |
 
 #### Observation
 ##### By adding weights , standardised scale data ,include type and a new label qaulityclass (segment quality into 3 categories 1-poor, 2-good and 3-excellent) we see the accuracy increased. The best was for  KNN  88% for n = 16
@@ -68,5 +51,5 @@ Below is a table showing names of all the columns and their description.
 ##### Model8A with KNN provides the highest accuracy of 87% with n=7 and hence that is selected.
 
 
-[Jupyter Notebook](.WineQuality-Classification/EDAReport/EDAnotebookTRAI-Usecase-Ver3.ipynb)
+[Jupyter Notebook](.WineQuality-Classification/EDA_ModelSelection/LogisticRegression_WineQuality_V1.ipynb)
 
