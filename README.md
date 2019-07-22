@@ -31,8 +31,8 @@ Below is a table showing names of all the columns and their description.
 ## PROJECT ANALYSIS
 | Description | Analysis |
 | --- | --- |
-| Channels_Data.head | ![image.png](images/PrimaryMasterData.png) |
-| Sample_Data | ![image.png](images/SampleUsers.png) |
+| Red wine  | ![image.png](images/redwinedataset.png) |
+| White wine | ![image.png](images/whitewinedataset.png) |
 
 
 ### CONCLUSION
