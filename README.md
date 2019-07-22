@@ -36,6 +36,11 @@ Below is a table showing names of all the columns and their description.
 
 
 ### CONCLUSION
+
+| Model | Models Analysed |
+| --- | --- |
+| Model | ![image.jpg](images/Models.jpg) |
+
 | Model | ModelName| Scaled?|	Outliers?|	Include Type?|	Added Qlty Cat?|	Added Wts?|	Logit_score|KNN_score |	DTREE_score |          | ------|----------|------- |----------|---------------|-----------------|------------|------------|--------- |:------------|
 |0	    | Model 1	 | No	    |Yes	     |No	           |No	             |No	        |0.522308	   |0.482308	|0.585385     |
 |1	    | Model 1A | No	    |Yes	     |No	           |No	             |Yes	        |0.441538	   |0.601538	|0.600000     |
