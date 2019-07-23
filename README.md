@@ -43,9 +43,18 @@ Below is a table showing names of all the columns and their description.
 
 
 #### Observation
-##### By adding weights , standardised scale data ,include type and a new label qaulityclass (segment quality into 3 categories 1-poor, 2-good and 3-excellent) we see the accuracy increased. The best was for  KNN  88% for n = 16
+##### Based on the data available we try the following approaches to see if the model built on these gives a good accuracy.
+- Check a Model which doesnt includes type information, keep the outliers, doesnt scale data nor add any weights (due to imbalance data) and see if the KNN, Logistic Regression or Decision Tree provide good accuracy.
+- Check if we add weights but ignore type, keep outliers and use unscaled data.
+- Check if accuracy improves if we add type, remove outliers, scale data and add weights for predicting the quality 
 
-##### The best score for Logistic regression and Decision Tree was model 4 with 82% and Model 8A with 84% respectively.
+After trying all the above it was observed that accuracy could not go beyond 61% even after adding type, removing outliers, standardised data to scale and adding weights. 
+
+The approach is to see if we can bin the class "quality" from 0-10 to 3 major categories 0-2 [poor] ,3-6 [good] and 7-10 [excellent]. and see if the same Model is able to predict the class "quality" now more accurately.
+
+##### For the new class (with 3 category) we found that by adding weights , standardised scale data ,including type the accuracy increased and the best was for KNN  88% for n = 16.
+
+And, The best score for Logistic regression and Decision Tree was model 4 with 82% and Model 8A with 84% respectively.
 
 #### Conclusion
 ##### Model8A with KNN provides the highest accuracy of 87% with n=7 and hence that is selected.
