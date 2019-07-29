@@ -60,5 +60,5 @@ And, The best score for Logistic regression and Decision Tree was model 4 with 8
 ##### Model8A with KNN provides the highest accuracy of 87% with n=7 and hence that is selected.
 
 
-[Jupyter Notebook](.WineQuality-Classification/EDA_ModelSelection/LogisticRegression_WineQuality_V1.ipynb)
+[Jupyter Notebook](.WineQuality-Classification/EDA_ModelEvaluation_Report/LogisticRegression_WineQuality_V1.ipynb)
 
