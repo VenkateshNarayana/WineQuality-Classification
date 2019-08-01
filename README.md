@@ -67,5 +67,5 @@ And, Using Grid Search we found that to get the accuracy of 96% for KNN and Logi
 ##### Model8A with KNN provides the highest accuracy of 87% with n=7 and hence that is selected.
 
 
-[Jupyter Notebook](.WineQuality-Classification/EDA_ModelEvaluation_Report/LogisticRegression_WineQuality_V1.ipynb)
+[Jupyter Notebook](.WineQuality-Classification/EDA_ModelEvaluation_Report/LogisticRegression_WineQuality_V2.ipynb)
 
