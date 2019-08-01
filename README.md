@@ -39,8 +39,9 @@ Below is a table showing names of all the columns and their description.
 
 |     | Models Analysed |
 | --- | ---             |
-| Model | ![image.jpg](images/Models.jpg) |
-
+| Model Results                  | ![image.jpg](images/Models.jpg) |
+| Model-Cross Validation Results | ![image.jpg](images/CrossValidationResults.jpg) |
+| Model-Grid Search Results      | ![image.jpg](images/GridSearchResults.png) |
 
 #### Observation
 ##### Based on the data available we try the following approaches to see if the model built on these gives a good accuracy.
@@ -62,9 +63,15 @@ And, The best score for Logistic regression and Decision Tree was model 4 with 8
 
 And, Using Grid Search we found that to get the accuracy of 96% for KNN and Logistic Regression, we use KNN with parameters as n_estimator :1 6, p=2, algorithm=auto, metric=minkowski and weights=uniform.
 
-![image.jpg](images/GridSearchResults.png) 
+![image.jpg](images/GridSearchFinalResults.png) 
 #### Conclusion
-##### Model8A with KNN provides the highest accuracy of 87% with n=7 and hence that is selected.
+##### KNN provides the highest accuracy of 96% with grid search and we use the best parameters as below:
+-n_estimator :16
+-p=2
+-algorithm=auto
+-metric=minkowski
+-weights=uniform.
+.
 
 
 [Jupyter Notebook](.WineQuality-Classification/EDA_ModelEvaluation_Report/LogisticRegression_WineQuality_V2.ipynb)
