@@ -40,7 +40,7 @@ Below is a table showing names of all the columns and their description.
 |     | Models Analysed |
 | --- | ---             |
 | Model Results                  | ![image.jpg](images/Models.jpg) |
-| Model-Cross Validation Results | ![image.jpg](images/CrossValidationResults.jpg) |
+| Model-Cross Validation Results | ![image.jpg](images/CrossValidationResults.png) |
 | Model-Grid Search Results      | ![image.jpg](images/GridSearchResults.png) |
 
 #### Observation
