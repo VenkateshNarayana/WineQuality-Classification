@@ -56,6 +56,13 @@ The approach is to see if we can bin the class "quality" from 0-10 to 3 major ca
 
 And, The best score for Logistic regression and Decision Tree was model 4 with 82% and Model 8A with 84% respectively.
 
+##### Using cross validation with the new class (with 3 category) we found that accuracy increased to 96% for KNN , Random Forrest and Logistic Regression
+
+![image.jpg](images/CrossValidationResults.png) 
+
+And, Using Grid Search we found that to get the accuracy of 96% for KNN and Logistic Regression, we use KNN with parameters as n_estimator :1 6, p=2, algorithm=auto, metric=minkowski and weights=uniform.
+
+![image.jpg](images/GridSearchResults.png) 
 #### Conclusion
 ##### Model8A with KNN provides the highest accuracy of 87% with n=7 and hence that is selected.
 
